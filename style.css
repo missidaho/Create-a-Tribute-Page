@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'IBM Plex Serif', serif;
 }
+
 #title {
     color: white;
     background-color: rgba(45, 32, 32, 0.5);
@@ -14,9 +15,11 @@ body {
     align-items: flex-end; */
 
 }
+
 h1 {
     margin: 0;
 }
+
 .hero {
     display: flex;
     background-image: url(milton-glaser.jpg);
@@ -28,6 +31,7 @@ h1 {
     justify-content: flex-end;
 
 }
+
 .milton,
 .pics {
     width: 350px;
@@ -40,6 +44,7 @@ h1 {
     gap: 3px;
     padding-top: px;
 }
+
 .cards:hover {
     /* transition: all .06s ease-out; */
     /* top: -4px; */
@@ -47,6 +52,7 @@ h1 {
     /* transition: width 0.3s ease-in-out, height 0.3s ease-in-out; */
     box-shadow: 1px 1px 5px #afafaf;
 }
+
 .picofmilton {
     display: flex;
     align-items: center;
@@ -54,25 +60,30 @@ h1 {
     padding: 3px;
     flex-direction: column;
 }
+
 h2 {
     font-size: 300%;
     color: #FF004B;
 }
+
 #subtitle {
     border: 2px blue;
     width: auto;
     height: 300%;
 }
+
 #tribute-info {
     display: flex;
     flex-direction: column;
     padding: 15px;
 }
+
 a {
     color: blue;
     text-decoration: none;
     padding-top: 40px;
 }
+
 a:hover {
     color: rgb(255, 255, 255);
     /* background-color: blue; */
@@ -80,10 +91,11 @@ a:hover {
     padding: 3px;
     padding-left: 6px;
     width: 175px;
-    background-color:#FF004B;
+    background-color: #FF004B;
     padding-top: 40px;
-    
+
 }
+
 footer {
     display: flex;
     width: 100%;
@@ -92,4 +104,17 @@ footer {
     align-items: center;
     justify-content: center;
     color: #FE8B4E;
+}
+
+/* --gallery-- */
+@media (min-width: 711px) {
+    .gallery{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+        gap: 5px;
+
+    }
 }
