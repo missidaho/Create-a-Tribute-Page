@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'IBM Plex Serif', serif;
 }
 #title {
     color: white;
@@ -16,7 +17,7 @@ h1 {
 }
 .hero {
     display: flex;
-    background-image: url(./milton-glaser.jpg.avif);
+    background-image: url(milton-glaser.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
@@ -45,10 +46,36 @@ h1 {
 }
 .picofmilton {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     padding: 3px;
+    flex-direction: column;
 }
-.subtitle {
- 
+h2 {
+    font-size: 300%;
+    color: rgb(255, 57, 57);
+}
+#subtitle {
+    border: 2px blue;
+    width: auto;
+    height: 300%;
+}
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    /* background-color: blue; */
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 6px;
+    width: 175px;
+    border: 2px solid red;
+    
 }
