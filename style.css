@@ -33,11 +33,11 @@ h1 {
 }
 
 .milton,
-.pics {
+.image {
     width: 350px;
 }
 
-.gallery {
+.img-div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,15 +78,17 @@ h2 {
     padding: 15px;
 }
 
-a {
+.tribute-link {
     color: blue;
     text-decoration: none;
-    padding-top: 40px;
 }
 
-a:hover {
+.tribute-link:hover {
     color: #FF004B;
 
+}
+figcaption {
+    padding-top: 40px;
 }
 
 footer {
@@ -101,7 +103,7 @@ footer {
 
 /* --gallery-- */
 @media (min-width: 711px) {
-    .gallery {
+    .img-div {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
@@ -113,7 +115,7 @@ footer {
 }
 
 @media (min-width: 1060px) {
-    .gallery {
+    .img-div {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
@@ -124,7 +126,7 @@ footer {
     }
 
     .milton,
-    .pics {
+    .image {
         width: 500px;
     }
     /* --hero-- */
@@ -141,7 +143,7 @@ footer {
     }
 } 
  @media (min-width: 1415px) {
-    .gallery {
+    .img-div {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
@@ -152,7 +154,7 @@ footer {
     }
 
     .milton,
-    .pics {
+    .image {
         width: 350px;
     }
 }
