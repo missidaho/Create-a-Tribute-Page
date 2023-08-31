@@ -25,11 +25,30 @@ h1 {
     justify-content: flex-end;
 
 }
+.milton,
 .pics {
     width: 350px;
 }
+
 .gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3px
+}
+.cards:hover {
+    /* transition: all .06s ease-out; */
+    /* top: -4px; */
+    /* border: 1px solid #cccccc; */
+    /* transition: width 0.3s ease-in-out, height 0.3s ease-in-out; */
+    box-shadow: 1px 1px 5px #afafaf;
+}
+.picofmilton {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 3px;
+}
+.subtitle {
+ 
 }
