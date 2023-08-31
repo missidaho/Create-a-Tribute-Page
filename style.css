@@ -42,7 +42,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     gap: 3px;
-    padding-top: px;
+    padding-top: 25px;
 }
 
 .cards:hover {
@@ -85,14 +85,7 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
-    /* background-color: blue; */
-    border-radius: 10px;
-    padding: 3px;
-    padding-left: 6px;
-    width: 175px;
-    background-color: #FF004B;
-    padding-top: 40px;
+    color: #FF004B;
 
 }
 
@@ -108,7 +101,7 @@ footer {
 
 /* --gallery-- */
 @media (min-width: 711px) {
-    .gallery{
+    .gallery {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
@@ -116,5 +109,50 @@ footer {
         padding-top: 25px;
         gap: 5px;
 
+    }
+}
+
+@media (min-width: 1060px) {
+    .gallery {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+        gap: 5px;
+
+    }
+
+    .milton,
+    .pics {
+        width: 500px;
+    }
+    /* --hero-- */
+    .hero {
+        display: flex;
+        background-image: url(milton-glaser.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        background-position: center;
+        align-items: flex-end;
+        justify-content: flex-end;
+    
+    }
+} 
+ @media (min-width: 1415px) {
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+        gap: 5px;
+
+    }
+
+    .milton,
+    .pics {
+        width: 350px;
     }
 }
